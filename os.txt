@@ -1,6 +1,6 @@
 dhcp=yes
-kiosk_config=https://gist.githubusercontent.com/djeraseit/f2e8978799041be19c5c09054f90f36f/raw/2ec3bc1ef4013b9a145995d2f91cc99cd2d3ee2e/os.txt
-#kiosk_config=https://raw.githubusercontent.com/AydinFatoglu/porteus-signage/main/sig1.txt
+#kiosk_config=https://gist.githubusercontent.com/djeraseit/f2e8978799041be19c5c09054f90f36f/raw/2ec3bc1ef4013b9a145995d2f91cc99cd2d3ee2e/os.txt
+kiosk_config= https://raw.githubusercontent.com/Megalith-Technologies/porteus/main/os.txt
 browser=firefox
 additional_components=uefi.zip
 homepage=file:///var/www/index.html
