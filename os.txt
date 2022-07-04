@@ -1,8 +1,35 @@
 dhcp=yes
 #kiosk_config=https://gist.githubusercontent.com/djeraseit/f2e8978799041be19c5c09054f90f36f/raw/2ec3bc1ef4013b9a145995d2f91cc99cd2d3ee2e/os.txt
-kiosk_config= https://raw.githubusercontent.com/Megalith-Technologies/porteus/main/os.txt
+kiosk_config=https://raw.githubusercontent.com/Megalith-Technologies/porteus/main/os.txt
 browser=firefox
 additional_components=uefi.zip
 homepage=file:///var/www/index.html
 screen_settings=Virtual1:1920x1080:60.00:normal:normal:normal
 #wallpaper=https://netresim.com/service/Download.php?resim=759
+dns_server=10.0.0.1 1.1.1.1
+disable_firewall=no
+allow_icmp_protocol=no
+hostname_aliases=10.0.0.1 router.local router
+hostname=wpad
+homepage=file:///var/local/debug
+homepage_append=mac
+disable_private_mode=no
+password_manager=no
+search_engine=duckduckgo
+enable_file_protocol=yes
+browser_preferences=https://raw.githubusercontent.com/Megalith-Technologies/porteus/main/firefox_prefs.txt
+virtual_keyboard=no
+zRAM=50%
+removable_devices=yes
+disable_numlock=yes
+right_mouse_click=yes
+shutdown_menu=shutdown reboot sleep restart-session lock
+screensaver_idle=20
+dpms_idle=30
+additional_components=uefi.zip 08-ssh.xzm
+ssh_localhost_only=yes
+hardware_video_encode=yes
+
+
+
+
