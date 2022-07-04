@@ -4,3 +4,5 @@ user_pref("network.trr.wait-for-portal",false);
 user_pref("network.trr.bootstrapAddress","104.16.249.249");
 user_pref("network.trr.send_user-agent_headers",true);
 user_pref("network.trr.send_accept-language_headers",true);
+user_pref("app.update.auto",true);
+user_pref("app.update.enabled",true);
